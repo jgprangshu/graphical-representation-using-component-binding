@@ -1,6 +1,11 @@
 # TravelBinding
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+Showing Component binding in angular with a small bird fly example .
+
+# Additional Requirements
+Install bootstrap using Angular CLI :- [ npm install --save bootstrap] and register the same in angular.json .
+Also install font awesome icon set using Angular CLI :- [ npm install --save font-awesome ] for bird icons used in the application along with a script tag already mentioned in the index.html for getting access to premium font-awesome packs.
 
 ## Development server
 
