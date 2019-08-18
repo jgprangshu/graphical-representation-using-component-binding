@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="card">
+        <h5 class="card-title">{{newBird.birdCount}}</h5>
+      <div class="card-body">
+        
+        <div class="card-text">
+            <p (click)="onTap()" *ngFor="let newBirds of newBird.birdCount" class="fas fa-crow">&nbsp;</p>
+              
+        </div>
+
+        <p>
+            Click a bird to make it fly!
+          </p>
+        
+      </div>
+    </div>
+  </div>
+
